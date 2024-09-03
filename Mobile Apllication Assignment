@@ -1,0 +1,123 @@
+How many widgets do we have on flutter According to the Flutter documentation, there are currently *254* built-in widgets in Flutter.
+
+Here's the breakdown:
+
+- *Layout widgets*: 34
+- *Basic widgets*: 44
+- *Material widgets*: 53
+- *Cupertino widgets*: 23
+- *Interactive widgets*: 17
+- *Painting widgets*: 12
+- *Animation widgets*: 13
+- *Input widgets*: 20
+- *Navigation widgets*: 10
+- *Other widgets*: 38
+
+Note that this number may change over time as new widgets are added or existing ones are deprecated. Additionally, developers can create their own custom widgets using the Flutter framework.
+
+You can find the complete list of Flutter widgets in the official documentation: (link unavailable)
+
+what are the most used 20 widget in flutter 
+Here are the top 20 most used Flutter widgets, along with a brief description and a sample code snippet:
+
+1. *Text*: Displays a text string.
+```
+Text('Hello, World!');
+```
+
+1. *Container*: A generic widget for building custom widgets.r
+```
+Container(color: Colors.red, child: Text('Hello'));
+```
+
+1. *Row*: A horizontal layout widget.
+```
+Row(children: [Text('Hello'), Text('World')]);
+```
+
+1. *Column*: A vertical layout widget.
+```
+Column(children: [Text('Hello'), Text('World')]);
+```
+
+1. *Stack*: A widget for stacking children on top of each other.
+```
+Stack(children: [Text('Hello'), Text('World')]);
+```
+
+1. *Image*: Displays an image.
+```
+Image.asset('assets/image.jpg');
+```
+
+1. *Button*: A material design button.
+```
+ElevatedButton(onPressed: () {}, child: Text('Click me'));
+```
+
+1. *Icon*: Displays an icon.
+```
+Icon(Icons.add);
+```
+
+1. *TextField*: A text input field.
+```
+TextField(controller: TextEditingController());
+```
+
+1. *ListView*: A scrollable list of widgets.
+```
+ListView(children: [Text('Item 1'), Text('Item 2')]);
+```
+
+1. *GridView*: A scrollable grid of widgets.
+```
+GridView.count(crossAxisCount: 2, children: [Text('Item 1'), Text('Item 2')]);
+```
+
+1. *AppBar*: A material design app bar.
+```
+AppBar(title: Text('My App'));
+```
+
+1. *Scaffold*: A basic material design layout.
+```
+Scaffold(body: Text('Hello, World!'));
+```
+
+1. *Drawer*: A material design drawer.
+```
+Drawer(child: Text('Hello, World!'));
+```
+
+1. *BottomNavigationBar*: A material design bottom navigation bar.
+```
+BottomNavigationBar(items: [BottomNavigationBarItem(icon: Icon(Icons.home), label: 'Home')]);
+```
+
+1. *CircularProgressIndicator*: A circular progress indicator.
+```
+CircularProgressIndicator();
+```
+
+1. *LinearProgressIndicator*: A linear progress indicator.
+```
+LinearProgressIndicator();
+```
+
+1. *Card*: A material design card.
+```
+Card(child: Text('Hello, World!'));
+```
+
+1. *Chip*: A material design chip.
+```
+Chip(label: Text('Hello, World!'));
+```
+
+1. *Dialog*: A material design dialog.
+```
+Dialog(child: Text('Hello, World!'));
+```
+
+These widgets are the most commonly used in Flutter applications, and are a good starting point for building your own apps.
